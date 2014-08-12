@@ -1,0 +1,65 @@
+.mainDiv{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border: solid 0px gray;
+}
+.parDiv{
+	height: 13.6%;
+	width: 20%;
+	border: solid 0px greenyellow;
+	display: inline-table;
+	margin: 2% 2%;
+}
+.childdiv{
+	border: solid 0px lightgreen;
+	height:100%;
+	width: 36%;
+	display: inline-table;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	box-shadow: 1px 1px 3px #888888;
+	min-height: 95px;
+	min-width: 170px;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+.rightdiv{
+	text-align: center;
+}
+.leftdiv{
+	text-align: center;
+}
+.stdiv{
+	width: 50%;
+	height: 60%;
+	border-radius: 10px 0px 0px 0px;
+	display: inline-table;
+}
+.nddiv{
+	width: 50%;
+	height: 60%;
+	border-radius: 0px 10px 0px 0px;
+	display: inline-table;
+}
+.rddiv{
+	width: 100%;
+	height: 40%;
+	text-align: center;
+	display: inline-table;
+	border-radius: 0px 0px 10px 10px;
+}
+.rdchild1div{
+	width: 80%;
+	text-align: left;
+	font-weight: bolder;
+	display: inline-table;
+}
+.rdchild2div{
+	width: 80%;
+	text-align: left;
+	display: inline-table;
+	color: #AAB2BD;
+}
